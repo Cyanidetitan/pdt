@@ -21,13 +21,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-APP_ID = os.environ.get("APP_ID", None)
-APP_HASH = os.environ.get("APP_HASH", None)
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+APP_ID = os.environ.get("APP_ID", "10247139")
+APP_HASH = os.environ.get("APP_HASH", "96b46175824223a33737657ab943fd6a")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6535153154:AAFBWj9hgp945Ed4BsIplPKJiDSB_T-a4ZE")
 TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
-MONGO_DB = os.environ.get("MONGO_DB", None)
+MONGO_DB = os.environ.get("MONGO_DB", "mongodb+srv://animxt:123@cluster0.ptmpfyp.mongodb.net/?retryWrites=true&w=majority")
 # type yout telegram id or username
-LOG = os.environ.get("LOG", None)
+LOG = os.environ.get("LOG", )
 ADMIN = os.environ.get("ADMIN", None)
 
 
