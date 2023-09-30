@@ -27,24 +27,20 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "6535153154:AAFBWj9hgp945Ed4BsIplPKJiDSB
 TMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 MONGO_DB = os.environ.get("MONGO_DB", "mongodb+srv://animxt:123@cluster0.ptmpfyp.mongodb.net/?retryWrites=true&w=majority")
 # type yout telegram id or username
-LOG = os.environ.get("LOG", )
+LOG = os.environ.get("LOG", "-1001586942391")
 ADMIN = os.environ.get("ADMIN", None)
 
 
 bot = TelegramClient("pinterestbot", APP_ID, APP_HASH).start(bot_token=BOT_TOKEN)
 
 msg = """
-Merhaba ben Pinterest üzerinden Video ve Resim indirebilen bir botum.
+
 `Hello, I am a bot that can download Videos and Images via Pinterest.`
 
-Şunları yapabilirim:
-`I can:`
 
-👉 **Video indirmek için:** `/pvid pinterestURL`
 👉 **To download a video:** `/pvid pinterestURL`
 
 
-👉 **Resim indirebilmek için:** `/pimg pinterestURL`
 👉 **To download a image:** `/pimg pinterestURL`
 """
 
